@@ -1,0 +1,91 @@
+.nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--bg);
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--page-x);
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.scrolled {
+    border-bottom-color: rgba(26, 26, 24, 0.12);
+}
+
+.brand {
+    font-family: var(--font-jost), sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem;
+    color: var(--ink);
+}
+
+.links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+.links a {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    transition: color 0.2s;
+}
+
+.links a:hover,
+.links a.active {
+    color: var(--ink);
+}
+
+.toggle {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.toggle span {
+    display: block;
+    width: 22px;
+    height: 1.5px;
+    background: var(--ink);
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.toggle.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+.toggle.open span:nth-child(2) { opacity: 0; }
+.toggle.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+
+@media (max-width: 600px) {
+    .toggle { display: flex; }
+
+    .links {
+        display: none;
+        position: absolute;
+        top: var(--nav-h);
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        gap: 0;
+        background: var(--bg);
+        border-bottom: 1px solid rgba(26, 26, 24, 0.1);
+        padding: 8px 0 16px;
+    }
+
+    .linksOpen { display: flex; }
+
+    .links a {
+        display: block;
+        padding: 12px var(--page-x);
+    }
+}
