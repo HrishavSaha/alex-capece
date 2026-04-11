@@ -1,7 +1,7 @@
 .gallery {
   display: flex;
   flex-direction: column;
-  gap: 3px;
+  gap: 24px;
   margin: 3px auto 0;
   padding-bottom: 80px;
   max-width: 1200px;
@@ -21,4 +21,13 @@
 
 .item:hover .img {
   transform: scale(1.012);
+}
+
+.caption {
+  margin-top: 8px;
+  padding: 0 12px;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  color: var(--muted);
+  font-family: var(--font-jost), sans-serif;
 }

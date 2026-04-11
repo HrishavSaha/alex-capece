@@ -21,6 +21,7 @@ export default function Gallery() {
               "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
             }
           />
+          <p className={styles.caption}>{img.caption}</p>
         </div>
       ))}
     </div>

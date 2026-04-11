@@ -2,7 +2,7 @@
 
 Personal portfolio site for Washington, D.C.-based photographer Alex Capece. Built with Next.js 16 (App Router).
 
-**Live scores:** 100 Desktop · 98 Mobile (Lighthouse)
+**Live scores:** 99 Desktop · 89 Mobile (Lighthouse)
 
 ---
 
@@ -119,7 +119,7 @@ Lighthouse scores as of launch:
 
 |                | Mobile | Desktop |
 | -------------- | ------ | ------- |
-| Performance    | 98     | 100     |
+| Performance    | 89     | 99      |
 | Accessibility  | 100    | 95      |
 | Best Practices | 100    | 100     |
 | SEO            | 100    | 100     |
