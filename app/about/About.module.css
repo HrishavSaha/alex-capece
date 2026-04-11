@@ -23,7 +23,7 @@
 }
 
 .bio {
-  font-size: 1rem;
+  font-size: 1.1669rem;
   line-height: 1.7;
   color: var(--ink);
   max-width: 480px;
@@ -51,7 +51,7 @@
 }
 
 .contactEmail {
-  font-size: 1rem;
+  font-size: 1.1669rem;
   color: var(--ink);
   text-decoration: underline;
   text-underline-offset: 3px;
