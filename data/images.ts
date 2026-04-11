@@ -1,6 +1,7 @@
 export interface GalleryImage {
     src: string;
     alt: string;
+    blurDataURL?: string;
 };
 
 export const IMAGES: GalleryImage[] = [
