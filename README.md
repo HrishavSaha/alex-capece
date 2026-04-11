@@ -57,7 +57,7 @@ npm run build
 npm start
 ```
 
-Requires Node.js 18.18+.
+Requires Node.js 20.9+.
 
 ---
 
