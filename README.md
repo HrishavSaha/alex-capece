@@ -68,7 +68,7 @@ All photos are managed in one place:
 ```ts
 // data/images.ts
 export const IMAGES = [
-  { src: '/images/01.jpg', alt: 'Description of photo' },
+  { src: "/images/01.jpg", alt: "Description of photo" },
   // ...
 ];
 ```
@@ -78,6 +78,7 @@ export const IMAGES = [
 3. The gallery updates automatically — no other changes needed
 
 **Image guidelines:**
+
 - Format: JPG/PNG/WEBP (Next.js converts to WebP/AVIF automatically)
 - Width: 1600px+ recommended for full-bleed quality
 - File size: compress to under 500KB per image before committing — use [Squoosh](https://squoosh.app) or `sharp-cli`
@@ -88,12 +89,12 @@ export const IMAGES = [
 
 Defined as CSS custom properties in `app/globals.css`:
 
-| Token | Value | Usage |
-|---|---|---|
-| `--bg` | `#F5F3EF` | Page background |
-| `--ink` | `#1A1A18` | Body text, active nav |
-| `--muted` | `#8C8C84` | Inactive nav, labels |
-| `--nav-h` | `72px` | Nav bar height |
+| Token      | Value                    | Usage                   |
+| ---------- | ------------------------ | ----------------------- |
+| `--bg`     | `#F5F3EF`                | Page background         |
+| `--ink`    | `#1A1A18`                | Body text, active nav   |
+| `--muted`  | `#8C8C84`                | Inactive nav, labels    |
+| `--nav-h`  | `72px`                   | Nav bar height          |
 | `--page-x` | `clamp(20px, 5vw, 72px)` | Horizontal page padding |
 
 Fonts are loaded via `next/font/google` and exposed as CSS variables `--font-cormorant` and `--font-jost`.
@@ -116,14 +117,15 @@ For other platforms (Netlify, Fly.io, a VPS), run `npm run build` and serve the 
 
 Lighthouse scores as of launch:
 
-| | Mobile | Desktop |
-|---|---|---|
-| Performance | 98 | 100 |
-| Accessibility | 100 | 95 |
-| Best Practices | 100 | 100 |
-| SEO | 100 | 100 |
+|                | Mobile | Desktop |
+| -------------- | ------ | ------- |
+| Performance    | 98     | 100     |
+| Accessibility  | 100    | 95      |
+| Best Practices | 100    | 100     |
+| SEO            | 100    | 100     |
 
 Key optimisations in place:
+
 - `sizes="100vw"` on all gallery images so mobile gets appropriately sized srcsets
 - `priority` on the first image only to avoid competing preloads
 - `placeholder="blur"` on below-the-fold images to eliminate layout shift

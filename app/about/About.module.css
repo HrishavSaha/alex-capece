@@ -1,98 +1,98 @@
 .about {
-    padding: clamp(48px, 8vh, 96px) var(--page-x);
-    max-width: 1200;
+  padding: clamp(48px, 8vh, 96px) var(--page-x);
+  max-width: 1200;
 }
 
 .grid {
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
 }
 
 .name {
-    font-family: var(--font-cormorant), serif;
-    font-size: clamp(3.5rem, 7vw, 6rem);
-    font-weight: 400;
-    line-height: 0.93;
-    letter-spacing: -0.01em;
-    color: var(--ink);
+  font-family: var(--font-cormorant), serif;
+  font-size: clamp(3.5rem, 7vw, 6rem);
+  font-weight: 400;
+  line-height: 0.93;
+  letter-spacing: -0.01em;
+  color: var(--ink);
 }
 
 .right {
-    padding-top: 4px;
+  padding-top: 4px;
 }
 
 .bio {
-    font-size: 1rem;
-    line-height: 1.7;
-    color: var(--ink);
-    max-width: 480px;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--ink);
+  max-width: 480px;
 }
 
 .bio p + p {
-    margin-top: 1.25em;
+  margin-top: 1.25em;
 }
 
 .bio em {
-    font-style: italic;
+  font-style: italic;
 }
 
 .contact {
-    margin-top: 48px;
+  margin-top: 48px;
 }
 
 .contactLabel {
-    font-size: 0.6875rem;
-    font-weight: 500;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 8px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
 }
 
 .contactEmail {
-    font-size: 1rem;
-    color: var(--ink);
-    text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 1px;
-    transition: color 0.2s;
+  font-size: 1rem;
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  transition: color 0.2s;
 }
 
 .contactEmail:hover {
-    color: var(--muted);
+  color: var(--muted);
 }
 
 .divider {
-    border: none;
-    border-top: 1px solid rgba(26, 26, 24, 0.15);
-    margin-top: 40px;
-    max-width: 480px;
+  border: none;
+  border-top: 1px solid rgba(26, 26, 24, 0.15);
+  margin-top: 40px;
+  max-width: 480px;
 }
 
 .footnote {
-    margin-top: 16px;
-    font-size: 0.6875rem;
-    font-weight: 500;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--muted);
-    max-width: 480px;
+  margin-top: 16px;
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  max-width: 480px;
 }
 
 @media (max-width: 768px) {
-    .grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
-    .name {
-        font-size: clamp(3rem, 14vw, 5rem);
-    }
+  .name {
+    font-size: clamp(3rem, 14vw, 5rem);
+  }
 
-    .bio,
-    .divider,
-    .footnote {
-        max-width: 100%;
-    }
+  .bio,
+  .divider,
+  .footnote {
+    max-width: 100%;
+  }
 }

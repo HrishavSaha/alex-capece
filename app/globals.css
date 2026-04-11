@@ -1,8 +1,8 @@
 :root {
-  --bg:     #F5F3EF;
-  --ink:    #1A1A18;
-  --muted:  #8C8C84;
-  --nav-h:  72px;
+  --bg: #f5f3ef;
+  --ink: #1a1a18;
+  --muted: #8c8c84;
+  --nav-h: 72px;
   --page-x: clamp(20px, 5vw, 72px);
 }
 
