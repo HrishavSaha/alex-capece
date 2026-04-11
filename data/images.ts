@@ -84,4 +84,58 @@ export const IMAGES: GalleryImage[] = [
     caption:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
   },
+  {
+    src: "/images/14.webp",
+    alt: "Alt for image 14",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/15.webp",
+    alt: "Alt for image 15",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/16.webp",
+    alt: "Alt for image 16",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/17.webp",
+    alt: "Alt for image 17",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/18.webp",
+    alt: "Alt for image 18",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/19.webp",
+    alt: "Alt for image 19",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/20.webp",
+    alt: "Alt for image 20",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/21.webp",
+    alt: "Alt for image 21",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
+  {
+    src: "/images/22.webp",
+    alt: "Alt for image 22",
+    caption:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce feugiat porta ipsum ut tempor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque pulvinar elit blandit bibendum convallis. Morbi ut ante vel tellus scelerisque tincidunt. Cras sit amet ex finibus, porta justo vel, facilisis metus. Integer.",
+  },
 ];
