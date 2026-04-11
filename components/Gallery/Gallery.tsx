@@ -12,7 +12,7 @@ export default function Gallery() {
             alt={img.alt}
             width={1600}
             height={900}
-            sizes="100vw"
+            sizes="(max-width: 1200px) 100vw, 1200px"
             className={styles.img}
             priority={i === 0}
             placeholder={i > 0 ? "blur" : "empty"}
