@@ -7,105 +7,111 @@ export interface GalleryImage {
 
 export const IMAGES: GalleryImage[] = [
   {
-    src: "/images/1.webp",
-    alt: "Alt for image 1",
-    caption:
-      "A heavy snowstorm in Washington, D.C. obscures open-air entrances of Metro stations, making the commute difficult for essential employees required to be in their offices.",
+    src: "/images/capitol staircase.webp",
+    alt: "capitol staircase",
+    caption: 
+      `A D.C. Fire & EMS recruit looks upward inside the U.S. Capitol during a training orientation tour.`
   },
   {
-    src: "/images/2.webp",
-    alt: "Alt for image 2",
+    src: "/images/metro snowstorm.webp",
+    alt: "metro snowstorm",
     caption:
-      "A performer rehearses an aerial act inside Washington's New York School of Trapeze, erected in the Navy Yard neighborhood.",
+      `Commuters climb snow-covered escalators at a Washington Metro station during a heavy winter storm.`
   },
   {
-    src: "/images/3.webp",
-    alt: "Alt for image 3",
+    src: "/images/inauguration silhouettes.webp",
+    alt: "inauguration silhouettes",
     caption:
-      "Space Shuttle Discovery, atop a NASA 747 Shutte Carrier Aircraft, makes its final flyover of the Washington region on the way to the Smithsonian’s Udvar-Hazy Air and Space Museum annex in Chantilly, Va., April 17, 2012.",
+      `Attendees at President Barack Obama's first inauguration stand atop a row of portable restrooms to see above the crowd.`
   },
   {
-    src: "/images/5.webp",
-    alt: "Alt for image 5",
+    src: "/images/firefighters.webp",
+    alt: "firefighters",
     caption:
-      "A cyclist passes a preserved section of the Berlin Wall along Niederkirchnerstraße."
+      `D.C. Fire & EMS recruits advance a hoseline during training at the department's Training Academy.`
   },
   {
-    src: "/images/6.webp",
-    alt: "Alt for image 6",
+    src: "/images/riggins.webp",
+    alt: "riggins",
     caption:
-      "An actor with a Washington improv troupe performs the last moments of his celebratory routine.",
+      `Former NFL running back John Riggins, the motivational speaker at a D.C. Fire & EMS recruit graduation, finds his signed ceremonial helmet commandeered by a young attendee.`
   },
   {
-    src: "/images/7.webp",
-    alt: "Alt for image 7",
+    src: "/images/stage performer on bed.webp",
+    alt: "stage performer on bed",
     caption:
-      "A bicycle counter in Copenhagen displays a running tally of daily and annual ridership. The city has long promoted cycling as a primary mode of transportation.",
+      `A performer rests on stage during a small theater production in Washington, D.C.`
   },
   {
-    src: "/images/8.webp",
-    alt: "Alt for image 8",
+    src: "/images/trapeze.webp",
+    alt: "trapeze",
     caption:
-      "A statue of the Virgin Mary stands against a painted wall in La Boca, Buenos Aires. This melting pot of a neighborhood became a stronghold for porteño culture when millions of European and Asian immigrants arrived in the early 20th century.",
+      `A performer rehearses an aerial act at the New York School of Trapeze in Washington's Navy Yard neighborhood.`
   },
   {
-    src: "/images/9.webp",
-    alt: "Alt for image 9",
+    src: "/images/inauguration crowd.webp",
+    alt: "inauguration crowd",
     caption:
-      "A couple walks along Rynisfjara black sand beach near Vík, Iceland, during a winter storm.",
+      `A crowd moves northward on 14th Street NW in Washington following the first inauguration of President Barack Obama, January 20, 2009.`
   },
   {
-    src: "/images/12.webp",
-    alt: "Alt for image 12",
+    src: "/images/ww2 reenactment kids.webp",
+    alt: "ww2 reenactment kids",
     caption:
-      "Attendees of President Barack Obama's first inauguration find themselves atop a line of portable restrooms. Record attendance in 2009 forced some to find alternate ways of navigating crowds in deadlock.",
+      `Two children in period costume stand among adult reenactors at "World War II Weekend," held annually at the Eisenhower National Historic Site in Gettysburg, Pennsylvania.`
   },
   {
-    src: "/images/13.webp",
-    alt: "Alt for image 13",
+    src: "/images/glacier group.webp",
+    alt: "glacier group",
     caption:
-      `"The War Room:" three members of the wedding party strategize in a makeshift bullpen at the home of the bride's parents.`,
+      `Visitors cross a footbridge toward Matanuska Glacier, approximately 100 miles north of Anchorage, Alaska.`
   },
   {
-    src: "/images/14.webp",
-    alt: "Alt for image 14",
+    src: "/images/iceland beach.webp",
+    alt: "iceland beach",
     caption:
-      "Glacier guide Nick Klco leads a team of visitors to explore the base of Matanuska Glacier, approximately 100 miles north of Anchorage, Ak.",
+      `A couple walks on Reynisfjara black sand beach near Vík, Iceland, as a winter storm moves in.`
   },
   {
-    src: "/images/15.webp",
-    alt: "Alt for image 15",
+    src: "/images/improv performer.webp",
+    alt: "improv performer",
     caption:
-      "Campers sit around a fire on Assateague Island, Md. The group was disturbed several times throughout the night by the feral horses for which the island is famous.",
+      `An actor takes his bow at the close of a performance with a Washington improv troupe.`
   },
   {
-    src: "/images/16.webp",
-    alt: "Alt for image 16",
+    src: "/images/la boca.webp",
+    alt: "la boca",
     caption:
-      "A throng of celebrants head northward on 14th Street, NW in Washington, following the first inauguration of President Barack Obama.",
+      `A statue of the Virgin Mary stands against a painted wall in La Boca, Buenos Aires.`
   },
   {
-    src: "/images/17.webp",
-    alt: "Alt for image 17",
+    src: "/images/copenhagen night.webp",
+    alt: "copenhagen night",
     caption:
-      "Firefighter recruits at the Washington, D.C. Fire Department's Training Academy practice advancing a hoseline as a team.",
+      `Cyclists pass a ridership counter on a Copenhagen street at night.`
   },
   {
-    src: "/images/19.webp",
-    alt: "Alt for image 19",
+    src: "/images/war room.webp",
+    alt: "war room",
     caption:
-      "Hosted every year at the Eisenhower National Historic Site in Gettysburg, Pa., “World War II Weekend” attracts reenactors of all ages in period-appropriate costumes.",
+      `Three members of the wedding party work through last-minute logistics at the home of the bride's parents.`
   },
   {
-    src: "/images/21.webp",
-    alt: "Alt for image 21",
+    src: "/images/assateague campfire.webp",
+    alt: "assateague campfire",
     caption:
-      "Members of a firefighting recruit class are treated to a tour of the U.S. Capitol Building. Knowledge of the interior of the numerous government buildings is crucial information for those responding to the often maze-like interior.",
+      `Campers sit around a fire on Assateague Island, Maryland.`
   },
   {
-    src: "/images/22.webp",
-    alt: "Alt for image 22",
+    src: "/images/berlin wall.webp",
+    alt: "berlin wall",
     caption:
-      "D.C. Fire & EMS Recruit Class #360 invited former NFL running back John Riggins (of then-Redskins fame) as the motivational speaker at graduation. Also in attendance was his daughter, who found the ceremonial signed firefighting helmet particularly interesting.",
+      `A cyclist passes a preserved section of the Berlin Wall along Niederkirchnerstraße.`
   },
+  {
+    src: "/images/space shuttle.webp",
+    alt: "space shuttle",
+    caption:
+      `Space Shuttle Discovery, mounted atop a NASA 747 Shuttle Carrier Aircraft, makes its final flight over the Washington region, April 17, 2012.`
+  }
 ];
