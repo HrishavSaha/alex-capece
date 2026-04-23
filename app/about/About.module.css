@@ -23,6 +23,7 @@
 }
 
 .bio {
+  font-family: var(--font-jost), sans-serif;
   font-size: 1.1669rem;
   line-height: 1.7;
   color: var(--ink);

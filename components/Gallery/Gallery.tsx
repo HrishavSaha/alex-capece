@@ -5,6 +5,11 @@ import styles from "./Gallery.module.css";
 export default function Gallery() {
   return (
     <div className={styles.gallery}>
+      <p className={styles.title}>
+        Washington is a city of institutions, and these photographs look for the people
+        inside them — in the moments before and after the official record. Some were made
+        elsewhere, but the subject is the same: ordinary life, briefly caught.
+      </p>
       {IMAGES.map((img, i) => (
         <div key={i} className={styles.item}>
           <Image

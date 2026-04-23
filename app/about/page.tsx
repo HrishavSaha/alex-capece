@@ -17,15 +17,16 @@ export default function AboutPage() {
 
         <div className={styles.bio}>
           <p>
-            Alex Capece is a Washington, D.C.-based photographer and Captain
-            with the D.C. Fire and EMS Department. His work documents public
-            life, civic moments, and the spaces where the ordinary and
-            extraordinary intersect — from the streets of the American capital
-            to across Europe.
+            Alex Capece is a Washington, D.C.-based photographer and Captain with the D.C. Fire and EMS Department.
+            That background puts him inside emergency services, public events, and the daily life of the American
+            capital in ways most photographers cannot replicate.
           </p>
           <p>
-            His photographs have been featured in{" "}
-            <em>The Washington Post Magazine</em>, among other publications.
+            His work has appeared in{" "}
+            <em>The Washington Post Magazine</em> and other publications.
+          </p>
+          <p>
+            He is available for editorial and documentary assignments in the Washington metro area and beyond.
           </p>
         </div>
 
