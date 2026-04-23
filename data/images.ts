@@ -5,18 +5,26 @@ export interface GalleryImage {
   blurDataURL?: string;
 }
 
+// The writing structure must be maintained
+// Copy the following bit (Without the //) and add it wherever you need your new image placed.
+// Remember: The image must exist inside the public/images directory, and make sure you use a webp image (Use an online converter!)
+// {
+//   src: "/images/imagename.webp",
+//   alt: "Image description for the physically challenged viewing your portfolio",
+//   caption:
+//     `Image Caption`
+// }
+
+// Reordering as simple as switching around the blocks present here
+
+// To delete, just delete the block corresponding to the image
+
 export const IMAGES: GalleryImage[] = [
   {
     src: "/images/capitol staircase.webp",
     alt: "capitol staircase",
     caption: 
       `A D.C. Fire & EMS recruit looks upward inside the U.S. Capitol during a training orientation tour.`
-  },
-  {
-    src: "/images/metro snowstorm.webp",
-    alt: "metro snowstorm",
-    caption:
-      `Commuters climb snow-covered escalators at a Washington Metro station during a heavy winter storm.`
   },
   {
     src: "/images/metro snowstorm.webp",
