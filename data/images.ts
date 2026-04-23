@@ -19,6 +19,12 @@ export const IMAGES: GalleryImage[] = [
       `Commuters climb snow-covered escalators at a Washington Metro station during a heavy winter storm.`
   },
   {
+    src: "/images/metro snowstorm.webp",
+    alt: "metro snowstorm",
+    caption:
+      `Commuters climb snow-covered escalators at a Washington Metro station during a heavy winter storm.`
+  },
+  {
     src: "/images/inauguration silhouettes.webp",
     alt: "inauguration silhouettes",
     caption:
