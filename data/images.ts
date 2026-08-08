@@ -10,7 +10,7 @@ export interface GalleryImage {
 // Remember: The image must exist inside the public/images directory, and make sure you use a webp image (Use an online converter!)
 // {
 //   src: "/images/imagename.webp",
-//   alt: "Image description for the physically challenged viewing your portfolio",
+//   alt: "Image description for screen reader users",
 //   caption:
 //     `Image Caption`
 // }
